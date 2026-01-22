@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+    <input type="text" id="display" placeholder="Calculate" disabled>
+<div class="buttons">
+
+  <!-- Row 1 -->
+  <button class="clear wide" onclick="clearDisplay()">C</button>
+  <button class="operator" onclick="pressOperator('+')">+</button>
+
+  <!-- Row 2 -->
+  <button onclick="pressNumber(7)">7</button>
+  <button onclick="pressNumber(8)">8</button>
+  <button onclick="pressNumber(9)">9</button>
+  <button class="operator" onclick="pressOperator('-')">-</button>
+
+  <!-- Row 3 -->
+  <button onclick="pressNumber(4)">4</button>
+  <button onclick="pressNumber(5)">5</button>
+  <button onclick="pressNumber(6)">6</button>
+  <button class="operator" onclick="pressOperator('*')">*</button>
+
+  <!-- Row 4 -->
+  <button onclick="pressNumber(1)">1</button>
+  <button onclick="pressNumber(2)">2</button>
+  <button onclick="pressNumber(3)">3</button>
+  <button class="operator" onclick="pressOperator('/')">/</button>
+
+  <!-- Row 5 -->
+  <button class="zero wide" onclick="pressNumber(0)">0</button>
+  <button class="equal" onclick="calculate()">=</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
