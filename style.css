@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #2b1055, #7597de);
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+
 
   animation: bgMove 8s infinite alternate;
 }
